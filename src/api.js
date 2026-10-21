@@ -1,5 +1,6 @@
 
-const API_URL = import.meta.env.VITE_API_URL || "http://localhost:5000/api";
+// const API_URL = import.meta.env.VITE_API_URL || "http://localhost:5000/api";
+const API_URL = "https://school-management-be-one.vercel.app/api";
 
 export async function apiRequest(path, options = {}) {
   const token = localStorage.getItem("schoolToken");
